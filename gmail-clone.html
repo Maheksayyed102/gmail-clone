@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            margin: 0;
+            background-color:midnightblue; /* White background for the entire page */
+        }
+
+        nav {
+            background-color: #6495ED;
+            height: 60px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+        }
+
+        .m {
+            color: white;
+            text-decoration: none;
+            font-size: 25px;
+        }
+
+        .m1 {
+            color: white;
+            text-decoration: none;
+            font-size: 22px;
+            margin-left:25px;
+        }
+
+        .m2 {
+            color: white;
+            text-decoration: none;
+            font-size: 22px;
+            border: 1px solid white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-left:800px;
+        }
+
+        .m3 {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            border: 1px solid white;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: white;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .m4 {
+            height: 1em;
+            width: auto;
+            vertical-align: middle;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+            margin: 20px 0;
+        }
+
+        ul li {
+            display: flex;
+            align-items: center;
+            margin: 10px 30px;
+            font-size: 20px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction:row;
+            justify-content: center;
+            margin-top:150px;
+            margin-left:500px;
+            gap: 20px;
+            align-items: center;
+            width: 100%;
+            max-width: 900px;
+            background-color: #F5F5F5;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(4, 4, 4, 0.5);
+        }
+
+        .con1, .con3 {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(4, 4, 4, 0.5);
+            width: 240px;
+            font-size: 20px;
+        }
+
+        .con1 h2, .con3 h2 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+        }
+
+        .con1 p, .con3 p {
+            font-size: 24px;
+            color: darkblue;
+        }
+
+        button {
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        .con2 {
+            background-color: darkblue;
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(4, 4, 4, 0.5);
+            text-align: center;
+            padding: 20px;
+            width: 240px;
+            font-size: 20px;
+        }
+
+        .con2 h2 {
+            font-size: 2.5rem;
+        }
+
+        .con2 p {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="" class="m">Welcome to Figma</a>
+            <a href="" class="m1">Create an account to edit and collaborate on this file</a>
+            <a href="" class="m2">Sign up with email</a>
+            <a href="" class="m3"><img class="m4" src="https://as1.ftcdn.net/v2/jpg/03/88/07/84/500_F_388078454_mKtbdXYF9cyQovCCTsjqI0gbfu7gCcSp.jpg" alt="">Continue with Google</a>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="con1">
+                <h2>Free Plan</h2>
+                <p>For Personal</p>
+                <i class="fa fa-usd">0</i>
+                <ul>
+                    <li><i class="fa fa-check-circle"></i> 1 User</li>
+                    <li><i class="fa fa-check-circle"></i> 4 Web Mails</li>
+                    <li><i class="fa fa-check-circle"></i> Responsive Website</li>
+                    <li><i class="fa fa-check-circle"></i> Free SSL</li>
+                </ul>
+                <button>Subscribe Now</button>
+            </div>
+            <div class="con2">
+                <h2>Basic Plan</h2>
+                <p>For Small Business</p>
+                <i class="fa fa-usd">29</i>
+                <ul>
+                    <li><i class="fa fa-check-circle"></i> 4 Users</li>
+                    <li><i class="fa fa-check-circle"></i> 10 Web Mails</li>
+                    <li><i class="fa fa-check-circle"></i> Responsive Website</li>
+                    <li><i class="fa fa-check-circle"></i> Free SSL</li>
+                </ul>
+                <button>Subscribe Now</button>
+            </div>
+            <div class="con3">
+                <h2>Pro Plan</h2>
+                <p>For Enterprise</p>
+                <i class="fa fa-usd">49</i>
+                <ul>
+                    <li><i class="fa fa-check-circle"></i> Unlimited Users</li>
+                    <li><i class="fa fa-check-circle"></i> Unlimited Web Mails</li>
+                    <li><i class="fa fa-check-circle"></i> Responsive Website</li>
+                    <li><i class="fa fa-check-circle"></i> Free SSL + SEO</li>
+                </ul>
+                <button>Subscribe Now</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
